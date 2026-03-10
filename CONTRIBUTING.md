@@ -12,14 +12,14 @@ Thanks for helping improve Software Analysis Mindsets.
 Example:
 
 ```bash
-git clone https://github.com/<your-username>/Software-Analyze-Philosphy.git
-cd Software-Analyze-Philosphy
+git clone https://github.com/<your-username>/Software-Lenses.git
+cd Software-Lenses
 git checkout -b feat/add-lovelace-mindset
 ```
 
 ## What to Contribute
 
-- Add new analysis mindsets under the correct topic folder (`architecture/`, `debugging/`, `performance/`, `strategy/`, `testing/`).
+- Add new analysis mindsets under the correct topic folder (`architecture/`, `debugging/`, `evolution/`, `performance/`, `security/`, `strategy/`, `testing/`).
 - Improve existing mindset files for clarity, accuracy, and practical usefulness.
 - Fix broken links, formatting issues, and inconsistencies between command files and docs.
 
@@ -37,7 +37,9 @@ To avoid duplication:
 - Canonical mindset content lives in topic folders:
   - `architecture/*.md`
   - `debugging/*.md`
+  - `evolution/*.md`
   - `performance/*.md`
+  - `security/*.md`
   - `strategy/*.md`
   - `testing/*.md`
 - `.claude/commands/*.md` are lightweight wrappers that route to the canonical files.
