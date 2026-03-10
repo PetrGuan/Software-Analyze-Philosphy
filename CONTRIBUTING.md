@@ -35,11 +35,11 @@ git checkout -b feat/add-lovelace-mindset
 To avoid duplication:
 
 - Canonical mindset content lives in topic folders:
-	- `architecture/*.md`
-	- `debugging/*.md`
-	- `performance/*.md`
-	- `strategy/*.md`
-	- `testing/*.md`
+  - `architecture/*.md`
+  - `debugging/*.md`
+  - `performance/*.md`
+  - `strategy/*.md`
+  - `testing/*.md`
 - `.claude/commands/*.md` are lightweight wrappers that route to the canonical files.
 
 Command wrapper structure:
